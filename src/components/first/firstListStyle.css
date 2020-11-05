@@ -1,0 +1,44 @@
+.firstNavBlock{
+    display: flex;
+}
+.firstNavBlockBtn{
+    width: 40px;
+    background-color: rgb(9, 77, 224);
+    color: #ffffff;
+    margin-left: 10px;
+    border: none;
+}
+.firstNavBlockInput{
+    border: 2px solid #0f9df0;
+    padding-left: 10px;
+}
+.firstNavBlockInput, .firstNavBlockBtn{
+    height: 40px;
+    box-sizing: border-box;
+}
+input:focus {
+    outline: none;
+}
+.firstToDOList{
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid #000000;
+    margin-top: 20px;
+    background-color:#85edff;
+}
+.firstToDoList{
+    width: 100%;
+}
+.firstToDoListItem{
+    border-radius: 5px;
+    list-style: none;
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #caecf5
+}
